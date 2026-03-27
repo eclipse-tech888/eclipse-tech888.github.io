@@ -75,5 +75,11 @@ footer {
 
 .card li {
     margin: 8px 0;
+    color: #444
+}
+
+.card a {
+    color: #444;
+    text-decoration: none;
 }
 
