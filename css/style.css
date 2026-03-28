@@ -47,8 +47,8 @@ footer {
   color: #666;
   font-size: 14px;
 }
-
 /* カード */
+
 .card {
     border: 1px solid #ddd;
     padding: 26px;
@@ -59,7 +59,7 @@ footer {
 }
 
 .card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.06);
 }
 
@@ -75,11 +75,26 @@ footer {
 
 .card li {
     margin: 8px 0;
-    color: #444
 }
 
-.card a {
-    color: #444;
+/* おみくじ */
+
+#omikuji-button {
+    padding: 10px 20px;
+    background-color: #5c5c5c;
+    color: white;
+    border: none;
+    border-radius: 12px;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#omikuji-button:hover {
+    background-color: #717171;
+}
+
+#omikuji-button:active {
+    transform: translateY(4px);
+    background-color: #6f7442;
 }
 
